@@ -4,10 +4,7 @@ import './Navbar.css';
 
 
 
-
 function Navbar() {
-
-
     return (
         <header>
             <nav className="nav-bar">
@@ -31,7 +28,7 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
-                <CartWidget/>
+                <CartWidget />
             </nav>
         </header>
     );
